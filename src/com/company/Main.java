@@ -7,21 +7,7 @@ public class Main {
         String date = "3rd";
         String month = "September";
         String year = "2021";
-        System.out.print(day);
-        System.out.print(", ");
-        System.out.print(month);
-        System.out.print(" ");
-        System.out.print(date);
-        System.out.print(", ");
-        System.out.print(year);
-        System.out.println(".");
-        System.out.print(day);
-        System.out.print(" ");
-        System.out.print(date);
-        System.out.print(" ");
-        System.out.print(month);
-        System.out.print(" ");
-        System.out.print(year);
-        System.out.print(".");
+        System.out.println(day+", "+month+" "+date+", "+year+".");
+        System.out.println(day+" "+date+" "+month+" "+year+".");
     }
 }
